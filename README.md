@@ -9,6 +9,14 @@ Built with [LangChain](https://github.com/hwchase17/langchain), [GPT4All](https:
 In order to set your environment up to run the code here, first install all requirements:
 
 ```shell
+- python -m venv venv (this creates isolated python environment)
+- .\venv\Scripts\activate (this activates the environment. For windows)
+- source venv\bin\activate (this activates the environment. For linux)
+- pip freeze (this command allows you to see what you have in the invironment. Both windows and linux)
+```
+
+
+```shell
 pip install -r requirements.txt
 ```
 
